@@ -1,0 +1,135 @@
+/*pad*/
+
+img {
+    max-width: 100%;
+}
+
+.gh {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    transition: all 0.5s cubic-bezier(0.7, 0, 0.3, 1) 0s;
+    -webkit-transition: all 0.5s cubic-bmezier(0.7, 0, 0.3, 1) 0s;
+    -ms-transition: all 0.5s cubic-bezier(0.7, 0, 0.3, 1) 0s;
+    cursor: pointer;
+    z-index: 9999;
+    display: none;
+}
+
+.selected .gh {
+    transform: rotate(90deg);
+}
+
+.gh a {
+    background-color: #fff;
+    display: block;
+    margin: 0 auto;
+    height: 2px;
+    margin-top: -1px;
+    position: relative;
+    top: 50%;
+    transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1) 0s;
+    -webkit-transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1) 0s;
+    -ms-transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1) 0s;
+    width: 100%;
+    border-radius: 2px;
+}
+
+.gh a:after {
+    width: 100%;
+}
+
+.gh a:before {
+    width: 100%;
+}
+
+.gh a:after,
+.gh a:before {
+    background-color: #fff;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 0;
+    position: absolute;
+    transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1) 0s;
+    -webkit-transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1) 0s;
+    -ms-transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1) 0s;
+}
+
+.gh a:after {
+    top: 7px;
+}
+
+.gh a:before {
+    top: -7px;
+}
+
+.selected .gh a:after,
+.selected .gh a:before {
+    top: 0;
+}
+
+.selected .gh a:before {
+    transform: translateY(0px) rotate(-45deg);
+    -webkit-transform: translateY(0px) rotate(-45deg);
+    -ms-transform: translateY(0px) rotate(-45deg);
+    background: #fff;
+    width: 100%;
+}
+
+.selected .gh a:after {
+    transform: translateY(0px) rotate(45deg);
+    -webkit-transform: translateY(0px) rotate(45deg);
+    -ms-transform: translateY(0px) rotate(45deg);
+    background: #fff;
+    width: 100%;
+}
+
+.selected .gh a {
+    background-color: transparent !important;
+}
+
+
+
+@media only screen and (max-width:1400px) {
+	
+ 
+	
+	
+	
+	
+	
+	
+	
+}
+
+@media only screen and (max-width:1200px) {
+	
+
+	
+	
+}
+
+@media only screen and (max-width:1000px) {
+   
+}
+
+@media only screen and (max-width:800px) {
+  
+       .qmyinsizc{
+		   margin: 0 30px;padding: 20px;width: auto;
+	   }
+	.qmyinsizc h2{
+		font-size: 16px;margin-bottom: 12px;
+	}
+	.qmyinsizc .del{
+		font-size: 14px;
+	}
+	.qmyinsizc .bs{
+		display: block;margin-top: 30px;
+	}
+	.qmyinsizc .bs .b1{
+		width: 120px;height: 34px;line-height: 34px;font-size: 13px;
+	}
+	
+}

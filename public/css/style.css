@@ -1,0 +1,185 @@
+.layout{
+	min-height: 100vh;background: #082b7a;
+}
+.header{
+	background-image: linear-gradient(to bottom, #0247e8,#053ab2, #07308f);padding: 0.6rem 2.6rem ;
+	display: flex;justify-content: flex-start;align-items: center;
+}
+.header .logo{
+	width: 17.44rem;
+}
+.header .logo img{
+	width: 100%;display: block;
+}
+html{
+	font-size: 0.99vw;
+}
+.header .naver{
+	margin-left: 20rem;
+}
+.header .naver li{
+	float: left;margin-right: 2.8rem;
+}
+.header .naver li a{
+	font-size:1.45rem ;
+	line-height: 1.7;
+	color: #fff;display: block;padding-left: 2.08rem;border-bottom: 1px solid rgba(255,255,255,0);
+}
+.header .naver li.on a,
+.header .naver li:hover a{
+	border-color: #fff;
+}
+.header .naver li:nth-child(1) a{
+	background: url(../images/qm1.jpg) no-repeat left center;
+}
+.header .naver li:nth-child(2) a{
+	background: url(../images/qm2.jpg) no-repeat left center;padding-left: 2.4rem;
+}
+.header .naver li:nth-child(3) a{
+	background: url(../images/qm3.jpg) no-repeat left center;
+}
+.header .naver li:nth-child(4) a{
+	background: url(../images/qm4.jpg) no-repeat left center;
+}
+.hmain{
+	padding: 0.6rem 0;
+}
+.hmain .ts{
+	margin-top: 1rem;background: url(../images/qm5.png) no-repeat center/auto 100%;height: 4rem;position: relative;
+}
+.hmain .ts h1{
+	font-size:2.08rem ;
+	line-height: 1.8;
+	color: #2d9aff;font-weight: bold;text-align: center;letter-spacing: 4px;
+}
+.hmain .ts h6{
+	font-size:1.5rem ;
+	line-height: 1.7;
+	color: #fff;font-weight: bold;position: absolute;
+	left: 2.5rem;
+	top: 0.2rem;z-index: 1;
+}
+.hmain .ts h6 i{
+	margin-left: 1.87rem;
+}
+.hmain{
+	height: calc(100vh - 5rem);
+	overflow: hidden;-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.hmain .box{
+	margin: 0 2.91rem;margin-top: 0.2;display: flex;justify-content: space-between;
+	height: calc(100% - 4rem);
+}
+.hmain .box .lt{
+	background: url(../images/qm6.png) no-repeat center/100% 100%;width: 28.7rem;
+    height: 100%;
+}
+.hmain .box .lt .bodc{
+	margin: 2rem 4rem;
+	height: calc(98% - 8rem);
+	/* background: url(../images/qm8.png) no-repeat center/cover; */
+	/* background-color: #0D4DD9; */
+}
+.hmain .box .lt .bodc li{
+	font-size: 1rem;
+	color: #fff;
+    line-height: 2rem;
+    padding-left: .5rem;
+}
+.hmain .box .cen{
+	background: url(../images/qm7.png) no-repeat center/100% 100%;width: 33rem;
+    height: calc(100% - 3.4rem);margin: 3.4rem auto 0;
+}
+.hmain .tit{
+	background: url(../images/qm10.png) no-repeat left center;height: 2.6rem;margin-left: 1.45rem;margin-top: 1.8rem;
+}
+.hmain .tit h2{
+	font-size:1.45rem ;
+	line-height: 2.4rem;
+	color: #fff;padding-left: 2.08rem;letter-spacing: 2px;
+}
+.hmain .box .cen .scrollbar{
+	height: calc(82% - 2rem);margin: 2rem 3rem 0;;
+	/* margin: 2rem 3rem 0; */
+}
+.hmain .box .cen dd{
+	background: url(../images/qm8.png) no-repeat center/cover;height: 4.2rem;position: relative;margin-bottom: 0.8rem;
+}
+.hmain .box .cen dd i{
+position: absolute;
+}
+.hmain .box .cen dd .i2{
+	background: url(../images/qm11.png) no-repeat center/cover;width: 1.3rem;height: 1.3rem;left: 0.26rem;bottom: 0;
+}
+.hmain .box .cen dd .i1{
+	background: url(../images/qm11-2.png) no-repeat center/cover;width: 1.3rem;height: 1.3rem;left: 0.26rem;top: 0;
+}
+.hmain .box .cen dd .i3{
+	background: url(../images/qm11-1.png) no-repeat center/cover;width: 1.3rem;height: 1.3rem;right: 0.26rem;top: 0;
+}
+.hmain .box .cen dd .i4{
+	background: url(../images/qm11-3.png) no-repeat center/cover;width: 1.3rem;height: 1.3rem;right: 0.26rem;bottom: 0;
+}
+.hmain .box .cen dd .ovs{
+	padding: 1.1rem 1.04rem 0 2.6rem;position: relative;
+}
+.hmain .box .cen dd .ds{
+	display: flex;justify-content: flex-start;
+}
+.hmain .box .cen dd .ds .ico{
+	width: 2.03rem;margin-right: 1.56rem;
+}
+.hmain .box .cen dd .ds h6{
+	font-size:1.04rem;
+	line-height: 1.7;
+	color: #fff;letter-spacing: 2px;
+}
+.hmain .box .cen dd h4{
+	position: absolute;
+	right: 2.6rem;
+	top: 0rem;z-index: 1;
+}
+.hmain .box .cen dd h4 span{
+	/* top: 50%; */
+	font-size: 20px ;
+	line-height: 1.5;
+	color: #fff;
+	font-weight: bold;
+	position: relative;
+}
+.hmain .box .cen dd h4 span::before,
+.hmain .box .cen dd h4 span::after{
+	position: absolute;
+	left: -1.45rem;
+	top: 50%;z-index: 1;width: 0.72rem;height: 2px;background: #fff;content: "";
+}
+.hmain .box .cen dd h4 span::after{
+	right: -1.45rem;left: auto;
+}
+.hmain .box .cen dd:last-child h4{
+	top: 2rem;
+}
+.hmain .box .cen dd:last-child h4 span{
+	font-size: 0.62rem;
+}
+.hmain .box .cen dd.d1{
+	background: none;height: auto;
+}
+.hmain .box .cen dd .xyd{
+	font-size: 0;text-align: center;padding: 0.2rem 0;
+}
+.hmain .box .cen dd .xyd span{
+	display: inline-block;width: 0.52rem;height: 0.52rem;background: #fff;border-radius: 50%;
+	margin: 0 0.72rem;
+}
+
+
+
+
+
+
+
